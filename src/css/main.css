@@ -1,0 +1,106 @@
+html, body {
+	font-family: Calibri;font-size: 22px;font-weight:500;
+	text-align: center;	
+	width: 1300px;
+	margin: 0 auto;
+
+
+}
+
+
+#logo{
+
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom:0.5rem;
+	margin-top:0.5rem;	
+
+}
+
+
+#round_square_pdf_button {
+	margin-top: 2rem;
+	margin-left: 2rem;
+	font-weight: bold;
+	float : left;
+	border-radius: 0.7rem;
+	background: rgb(99, 173, 49);
+	width: 2.3rem;
+	height: 1.75rem;
+	border-style: solid;
+	border-width: 0.1rem;
+  }
+
+#round_square_meat {
+  margin: auto;
+  border-radius: 100px;
+  background: rgba(255, 235, 192, 1.0);
+  padding: 10px;
+  width: 1250px;
+  height: 540px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#round_square_blue {
+  margin: auto;
+  border-radius: 13px;
+  background: #5B9BD5;
+  padding: 20px;
+  width: 40rem;
+  height: 12px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#round_square_grey_gradient {
+	margin: auto;
+	margin-left: 3rem;
+	border-radius: 12px;
+	background: rgba(129, 125, 125, 0);
+	padding: 25px;
+	width: 500px;
+	height: 25px;
+	border-style: solid;
+	border-width: 0px;
+	background-image:linear-gradient(to right, rgb(226, 223, 223), rgba(255, 255, 255, 0));
+
+}
+
+#menu ul {
+	padding: 0px;
+	margin: 0px;
+	margin-left : 0px;	
+	min-width: 50rem;
+
+}
+#menu ul li {
+
+	float: left;
+	list-style-type: none;
+	
+}
+#menu ul li a {
+	font-family: Calibri;
+	font-size: 24px;
+	color: #FFFFFF	;
+	text-decoration: none;
+	display: block;
+	line-height: 0px;
+	width: auto;
+	height: 0px;
+	text-align: center;
+	margin-right : 4px;
+	margin-left : 0px;
+	margin-top : -15px;	
+	transition : 1.3s;
+	border-radius: 7px;	
+	padding: 20px 9px;
+}
+
+
+#menu ul li a:hover {
+	background-color: #0000ff;
+	color: #ddd;
+}

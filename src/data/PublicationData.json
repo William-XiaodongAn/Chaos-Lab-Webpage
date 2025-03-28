@@ -1,0 +1,39 @@
+[
+    {
+        "id" : "year",
+        "year" : "2024"
+    }
+,
+    {
+        "id" : "pub",
+        "number":"2",
+        "imageLink": "images/paper_2024_2.png",
+        "title": "Experimental studies of spiral wave teleportation in a light sensitive Belousov–Zhabotinsky system featured",
+        "link" : "pdfs/paper_2024_2.pdf",
+        "citation": "Tyler, Shannyn A., David Mersing, Flavio H. Fenton, Mark R. Tinsley, and Kenneth Showalter. Chaos: An Interdisciplinary Journal of Nonlinear Science 34, no. 9 (2024)."
+    }
+,
+    {
+        "id" : "pub",
+        "number":"1",
+        "imageLink": "images/paper_2024_1.png",
+        "title": "A cross species thermoelectric and spatiotemporal analysis of alternans in live explanted hearts using dual voltage-calcium fluorescence optical mapping",
+        "link" : "pdfs/paper_2024_2.pdf",
+        "citation": "Crispino, Anna, Alessandro Loppini, Ilija Uzelac, Shahriar Iravanian, Neal K. Bhatia, Michael Burke, Simonetta Filippi, Flavio H. Fenton, and Alessio Gizzi. Physiological Measurement 45, no. 6 (2024): 065001."
+    }
+,   
+{
+    "id" : "year",
+    "year" : "2023"
+}
+,    
+{
+    "id" : "year",
+    "year" : "2022"
+}
+,    
+{
+    "id" : "year",
+    "year" : "2021"
+}
+]
