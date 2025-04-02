@@ -21,7 +21,6 @@ function Menu({ marginTopLength }: Props) {
               <li>
                 <b>
                   <a
-                    href="#"
                     onClick={() => {
                       setSelectIndex(index);
                       item === "Home" ? navigate("/") : navigate("/" + item);
