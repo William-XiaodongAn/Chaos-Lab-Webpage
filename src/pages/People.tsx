@@ -6,7 +6,10 @@ function People() {
     <>
       <Menu marginTopLength="20px" />
       <br />
-      <img src=" images/people1.png" />
+      <img
+        style={{ width: "50%", maxWidth: "1000px" }}
+        src=" images/people1.png"
+      />
       <br />
       <br />
       <PeopleTag

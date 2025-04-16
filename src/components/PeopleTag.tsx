@@ -22,8 +22,9 @@ function PeopleTag({
       <div
         id="round_square_meat"
         style={{
-          width: 1000,
-          height: 320,
+          maxWidth: 1000,
+          width: "80%",
+          minHeight: "clamp(220px, 80vh, 350px)",
           borderRadius: 20,
           backgroundColor: "white",
           padding: 0,
@@ -43,7 +44,7 @@ function PeopleTag({
           }}
         >
           &nbsp; &nbsp; &nbsp; &nbsp; Principle Investigator{" "}
-        </div>
+        </div>{" "}
         <div
           style={{
             width: "30%",
@@ -54,14 +55,16 @@ function PeopleTag({
         >
           <img
             src={photo}
-            style={{ margin: "20px 0px 0px 40px", width: 190 }}
+            style={{ margin: "20px 0px 0px 40px", width: "60%" }}
           />
           <div
             style={{
+              width: "60%",
               color: "black",
-              fontSize: 15,
-              marginLeft: 20,
+              fontSize: "clamp(5px, 1vw, 12px)",
+              marginLeft: 40,
               fontStyle: "italic",
+              whiteSpace: "nowrap",
             }}
           >
             <br />
@@ -70,16 +73,15 @@ function PeopleTag({
             office: {office}
           </div>
         </div>
-
         <div
           style={{
             width: "70%",
             float: "right",
             textAlign: "left",
             color: "black",
-            padding: "20px 100px 60px 0px",
+            padding: "20px 0px 60px 50px",
             fontFamily: "Calibri",
-            fontSize: 22,
+            fontSize: "clamp(12px, 2vw, 22px)",
             fontWeight: 500,
             lineHeight: 1.2,
           }}

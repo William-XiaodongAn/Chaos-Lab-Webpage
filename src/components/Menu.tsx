@@ -21,6 +21,7 @@ function Menu({ marginTopLength }: Props) {
               <li>
                 <b>
                   <a
+                    style={{ cursor: "pointer" }}
                     onClick={() => {
                       setSelectIndex(index);
                       item === "Home" ? navigate("/") : navigate("/" + item);
